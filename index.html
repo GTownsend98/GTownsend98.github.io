@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vast Variety Co</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0b3d91, #1e90ff);
+      color: #f4f7fb;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .page {
+      max-width: 720px;
+      padding: 32px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 24px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: clamp(2.5rem, 3.5vw, 4rem);
+    }
+    p {
+      line-height: 1.7;
+      margin: 1rem 0 1.5rem;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+    .links a {
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.12);
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+    .links a:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateY(-2px);
+    }
+    footer {
+      margin-top: 24px;
+      font-size: 0.95rem;
+      opacity: 0.75;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1>Welcome to the Vast Variety Co!</h1>
+    <p>The Vast Variety Co. is a company that offers a wide range of products and services to meet all your needs. Founded in Tulsa, Oklahoma, we strive to make every experience with us truly unique.</p>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <section id="about">
+      <h2>About</h2>
+      <p>Use this page as a starting point for your portfolio, blog, or personal website. It includes a modern responsive layout and clean typography.</p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Share your latest work, open source contributions, and anything you're proud of. The design is ready to adapt as your content grows.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: contact@vastvarietyco.com</p>
+    </section>
+    <footer>Built with HTML and CSS for a GitHub Pages site.</footer>
+  </main>
+</body>
+</html>
